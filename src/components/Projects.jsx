@@ -60,19 +60,26 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
-        image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
+        title:'Multiple Face Detection and Recognition',
+        description:' Multiple face detection and recognition system designed to address the challenges associated with identifying and tracking multiple faces in diverse environment',
+        image: {copeople},
+        git:"https://github.com/rizaan/Multiple-Face-Recognition",
+        technologies:[ 'Python', 'VScode','Github Desktop']
     },
     {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
-        image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
-    }
+        title:'FLMS - Football League Management System',
+        description:' This solution empowers league administrators to efficiently oversee and manage all aspects of league operations',
+        image: {vpn},
+        git:'https://github.com/rizaan/Football-League-Management-System',
+        technologies:['Java' ,'JDBC' , 'MySQL']
+    },
+    {
+        title:'USB Rubber Ducky ',
+        description:'  USB Rubber Ducky’s keystroke injection capabilities through the Raspberry Pi Pico to simulate real-world scenarios.',
+        image: {vpn},
+        git:'https://github.com/rizaan/USB-Rubber-Ducky-',
+        technologies:['Python' ,'Nmap' , 'Wireshark','Git']
+    },
 ]
 
 export default Projects
